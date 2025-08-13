@@ -26,7 +26,7 @@ project-folder/
 
 ## 🚀 How to Run 
 1. Download or clone the repository:
- ```bash git clone https://github.com/username/food-store.git ```
+ ```bash git clone [https://github.com/username/food-store.git](https://github.com/JumaQasimiM/HZR-shoping.git) ```
 2. Open index.html in your browser.
 
 ## Live Demo [Click here to view the live demo](https://jumaqasimim.github.io/HZR-shoping/)
