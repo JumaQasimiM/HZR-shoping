@@ -2,12 +2,8 @@
 // item swiper
 const swiper = new Swiper('.mysiwper', {
   // Optional parameters
-  slidesPerView: 1,
+  slidesPerView: 2,
   spaceBetween: 10,
-
-
- 
-
 
   // And if we need scrollbar
   scrollbar: {
@@ -15,6 +11,7 @@ const swiper = new Swiper('.mysiwper', {
   },
 
  breakpoints: {
+  
      550: {
       slidesPerView: 2,
       spaceBetween: 20,
@@ -51,8 +48,9 @@ const bestseller = new Swiper('.bestseller-slider', {
   },
 
  breakpoints: {
+   
      550: {
-      slidesPerView: 1,
+      slidesPerView: 2,
     },
     640: {
       slidesPerView: 2,

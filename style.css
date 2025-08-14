@@ -72,6 +72,12 @@ ol {
     color: var(--primary-color);
     padding: 5px 0;
 }
+@media (max-width: 768px) {
+    .top-header .top-flex{
+        display: none;
+    }
+    
+}
 
 .top-content {
     display: flex;

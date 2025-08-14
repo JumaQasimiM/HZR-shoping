@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HZR Login</title>
+    <!-- bootstrap   -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!-- font awesome   -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+        integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+    <!-- AOS -->
+    <!-- animatim -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Federant&display=swap');
+
+        .login {
+            background-image: url("images/banner.avif");
+            background-repeat: no-repeat;
+            background-size: contain;
+            background-position: left 30% center;
+            width: 100%;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+
+        }
+
+        .form-login {
+            width: 450px;
+            height: 400px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            margin: auto;
+            background-color: lightslategray;
+            opacity: 0.9;
+            backdrop-filter: blur(4px);
+            border-radius: 8px;
+            gap: 10px;
+
+
+        }
+
+        .form-login h2 {
+            text-align: center;
+            margin-bottom: 30px;
+            font-family: "Federant", serif;
+        }
+
+        .form-group {
+            width: 350px;
+            height: 35px;
+            border: none;
+            outline: none;
+            border-radius: 8px;
+            background-color: red;
+            position: relative;
+            margin: 15px;
+
+        }
+
+        .form-group input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            outline: none;
+            border-radius: 8px;
+            padding: 0 35px 0 10px;
+
+        }
+
+        .form-group i {
+            position: absolute;
+            bottom: 10px;
+            right: 12px;
+            z-index: 9;
+        }
+
+
+
+        .form-group label {
+            color: #6b0d0d;
+            font-size: 16px;
+            position: absolute;
+            top: 3px;
+            left: 5px;
+            padding: 0 4px;
+            transition: 0.4s ease;
+
+        }
+
+        .form-group input:focus+label,
+        .form-group input:not(:placeholder-shown)+label {
+            background-color: #fff;
+            top: -12px;
+            border-radius: 8px;
+
+
+        }
+
+        .forgot {
+            display: flex;
+            justify-content: space-between;
+            width: 75%;
+            margin-top: -10px;
+
+        }
+
+        .forgot a {
+            text-decoration: none;
+            color: #fff;
+        }
+
+        .social ul {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .social ul a {
+            width: 35px;
+            height: 35px;
+            display: grid;
+            place-content: center;
+            background-color: lightskyblue;
+            color: #fff;
+            border-radius: 50%;
+            transition: 0.5s ease;
+        }
+
+        ul li a:hover {
+            transform: translateY(-5px);
+        }
+
+        ul li {
+            list-style: none;
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <section class="login">
+            <div class="container">
+                <div class="form-login" data-aos="zoom-in-up" data-aos-anchor-placement="bottom-bottom"
+                    data-aos-duration="1500" data-aos-delay="100">
+
+
+                    <form action="index.html">
+                        <h2 data-aos="zoom-in-up" data-aos-anchor-placement="bottom-bottom" data-aos-duration="2000"
+                            data-aos-delay="100">Login to Syatem</h2>
+                        <div class="form-group" data-aos="zoom-in-up" data-aos-anchor-placement="bottom-bottom"
+                            data-aos-duration="2500" data-aos-delay="100">
+
+                            <input type="text" placeholder="">
+                            <label for="email">E Mail</label>
+                            <i class="fa-regular fa-user"></i>
+                        </div>
+                        <div class="form-group" data-aos="zoom-in-up" data-aos-anchor-placement="bottom-bottom"
+                            data-aos-duration="3000" data-aos-delay="100">
+
+                            <input type="text" placeholder="">
+                            <label for="email">E Mail</label>
+                            <i class="fa-solid fa-lock-open"></i>
+                        </div>
+                        <div class="form-group" data-aos="zoom-in-up" data-aos-anchor-placement="bottom-bottom"
+                            data-aos-duration="3000" data-aos-delay="100">
+                            <input type="submit" value="Login">
+                        </div>
+
+                    </form>
+                    <div class="forgot " data-aos="fade-up" data-aos-anchor-placement="bottom-bottom" data-aos-duration="2000"
+                                data-aos-delay="100">
+                        <a href="#">Forgot Password ?</a>
+                        <a href="">Sign Up</Sign></a>
+                    </div>
+                    <div class="social">
+                        <ul>
+                            <li data-aos="fade-up" data-aos-anchor-placement="bottom-bottom" data-aos-duration="2000"
+                                data-aos-delay="100"><a href="#"> <i class="fa-brands fa-facebook"></i></a></li>
+                            <li data-aos="fade-up" data-aos-anchor-placement="bottom-bottom" data-aos-duration="1000"
+                                data-aos-delay="100"><a href="#"> <i class="fa-brands fa-instagram"></i></a></li>
+                            <li data-aos="fade-up"data-aos-anchor-placement="bottom-bottom" data-aos-duration="2000"
+                                data-aos-delay="100"><a href="#"> <i class="fa-brands fa-linkedin"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+    </main>
+    <!-- bootstrap   -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+        integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+        crossorigin="anonymous"></script>
+    <!-- font awesome   -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/js/fontawesome.min.js"
+        integrity="sha512-QPVPxxncZwuT317gBTFFlXTykloTFA4jnd5j/aFco+Nd/0eqFsp/zGdhjuwkRoiPMsjvkjHkp0DGRPBxF+d3Pw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- animatim -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>
