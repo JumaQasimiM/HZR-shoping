@@ -1,5 +1,5 @@
 
-# 🛒 HZR-shoping Online Store 
+# 🛒 HZR-shoping Online Store  2025
 A responsive online store for purchasing groceries, built using **HTML**, **CSS**, **JavaScript**, with **Bootstrap** and **Swiper** for enhanced design and functionality.
 
 ## 📌 Features 
