@@ -2,6 +2,9 @@
 # 🛒 HZR-shoping Online Store  2025
 A responsive online store for purchasing groceries, built using **HTML**, **CSS**, **JavaScript**, with **Bootstrap** and **Swiper** for enhanced design and functionality.
 
+## Pages
+1. index
+2. login
 ## 📌 Features 
 - Fully responsive design for mobile, tablet, and desktop
 - Product categories with images and prices
@@ -19,10 +22,10 @@ A responsive online store for purchasing groceries, built using **HTML**, **CSS*
 
 project-folder/ 
 │ ├── index.html 
-├── /css │ 
-└── style.css 
-├── /js │ 
-├── /images │ 
+│ ├── login.html 
+│ ├── sciprt.js 
+│ ├── style.css 
+├── /images  
 
 ## 🚀 How to Run 
 1. Download or clone the repository:
